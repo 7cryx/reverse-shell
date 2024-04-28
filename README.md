@@ -19,7 +19,7 @@ sudo apt install gcc-mingw-w64
 
 ## How to use
 
-1. Clone repo:
+1. Clone repo: https://github.com/7cryx/reverse-shell.git
 ```sh
 git clone 
 ```
@@ -47,12 +47,10 @@ Other `Makefile` rules:
 - `make linux`
 - `make windows`
 - `make re`
--
 - `make all WAIT_FOR_CLIENT=TRUE`
 - `make linux WAIT_FOR_CLIENT=TRUE`
 - `make windows WAIT_FOR_CLIENT=TRUE`
 - `make re WAIT_FOR_CLIENT=TRUE`
--
 - `make clean`
 
 In case you don't have the `Makefile`, just copy the `reverse-shell.c` file and compile it with the following command:
